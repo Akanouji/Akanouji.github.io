@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anizone - Anime Series</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anizone - Your Source for Anime Series</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Featured Anime Series</h2>
+        <p>Here you can find the latest and greatest anime series!</p>
+        <!-- Add your featured anime series here -->
+    </section>
+
+    <section id="about">
+        <h2>About Anizone</h2>
+        <p>Anizone is your one-stop destination for all things anime. We provide information about anime series, reviews, news, and much more.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or suggestions, feel free to contact us at contact@anizone.com.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anizone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
