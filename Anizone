@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anizone - Anime Series</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anizone - Your Source for Anime Series</h1>
+        <nav>
+            <ul>
+                <li><a href="#popular">Most Popular</a></li>
+                <li><a href="#newest">Newest</a></li>
+                <li><a href="#viewed">Most Viewed</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="popular">
+        <h2>Most Popular Anime</h2>
+        <ul>
+            <li>Naruto</li>
+            <li>One Piece</li>
+            <li>Attack on Titan</li>
+            <!-- Add more popular anime here -->
+        </ul>
+    </section>
+
+    <section id="newest">
+        <h2>Newest Anime</h2>
+        <ul>
+            <li>Demon Slayer: Kimetsu no Yaiba</li>
+            <li>Jujutsu Kaisen</li>
+            <li>My Hero Academia</li>
+            <!-- Add more newest anime here -->
+        </ul>
+    </section>
+
+    <section id="viewed">
+        <h2>Most Viewed Anime</h2>
+        <ul>
+            <li>Death Note</li>
+            <li>Dragon Ball Z</li>
+            <li>Tokyo Ghoul</li>
+            <!-- Add more most viewed anime here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anizone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anizone - Anime Series</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .watch-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .comment-link {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anizone - Your Source for Anime Series</h1>
+        <nav>
+            <ul>
+                <li><a href="#popular">Most Popular</a></li>
+                <li><a href="#newest">Newest</a></li>
+                <li><a href="#viewed">Most Viewed</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="popular">
+        <h2>Most Popular Anime</h2>
+        <ul>
+            <li>
+                <span class="anime-title">Naruto</span>
+                <a href="#" class="watch-link">Watch</a>
+                <a href="#" class="comment-link">Comments</a>
+            </li>
+            <!-- Add more popular anime here -->
+        </ul>
+    </section>
+
+    <section id="newest">
+        <h2>Newest Anime</h2>
+        <ul>
+            <li>
+                <span class="anime-title">Demon Slayer: Kimetsu no Yaiba</span>
+                <a href="#" class="watch-link">Watch</a>
+                <a href="#" class="comment-link">Comments</a>
+            </li>
+            <!-- Add more newest anime here -->
+        </ul>
+    </section>
+
+    <section id="viewed">
+        <h2>Most Viewed Anime</h2>
+        <ul>
+            <li>
+                <span class="anime-title">Death Note</span>
+                <a href="#" class="watch-link">Watch</a>
+                <a href="#" class="comment-link">Comments</a>
+            </li>
+            <!-- Add more most viewed anime here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anizone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anizone - Anime Series</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50; /* dark blue */
+            color: #fff; /* white text */
+        }
+
+        header {
+            background-color: #16a085; /* green */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #16a085; /* green */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .watch-link {
+            display: inline-block;
+            background-color: #3498db; /* blue */
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .comment-link {
+            display: inline-block;
+            background-color: #e74c3c; /* red */
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .anime-title {
+            color: #fff; /* white text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anizone - Your Source for Anime Series</h1>
+        <nav>
+            <ul>
+                <li><a href="#popular">Most Popular</a></li>
+                <li><a href="#newest">Newest</a></li>
+                <li><a href="#viewed">Most Viewed</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="popular">
+        <h2>Most Popular Anime</h2>
+        <ul>
+            <li>
+                <span class="anime-title">Naruto</span>
+                <a href="#" class="watch-link">Watch</a>
+                <a href="#" class="comment-link">Comments</a>
+            </li>
+            <!-- Add more popular anime here -->
+        </ul>
+    </section>
+
+    <section id="newest">
+        <h2>Newest Anime</h2>
+        <ul>
+            <li>
+                <span class="anime-title">Demon Slayer: Kimetsu no Yaiba</span>
+                <a href="#" class="watch-link">Watch</a>
+                <a href="#" class="comment-link">Comments</a>
+            </li>
+            <!-- Add more newest anime here -->
+        </ul>
+    </section>
+
+    <section id="viewed">
+        <h2>Most Viewed Anime</h2>
+        <ul>
+            <li>
+                <span class="anime-title">Death Note</span>
+                <a href="#" class="watch-link">Watch</a>
+                <a href="#" class="comment-link">Comments</a>
+            </li>
+            <!-- Add more most viewed anime here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anizone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
