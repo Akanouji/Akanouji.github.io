@@ -1,1 +1,88 @@
-anizone.to.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anizone - Anime Series</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anizone - Your Source for Anime Series</h1>
+        <nav>
+            <ul>
+                <li><a href="#popular">Most Popular</a></li>
+                <li><a href="#newest">Newest</a></li>
+                <li><a href="#viewed">Most Viewed</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="popular">
+        <h2>Most Popular Anime</h2>
+        <ul id="popular-list">
+            <!-- Anime titles will be dynamically added here -->
+        </ul>
+    </section>
+
+    <section id="newest">
+        <h2>Newest Anime</h2>
+        <ul id="newest-list">
+            <!-- Anime titles will be dynamically added here -->
+        </ul>
+    </section>
+
+    <section id="viewed">
+        <h2>Most Viewed Anime</h2>
+        <ul id="viewed-list">
+            <!-- Anime titles will be dynamically added here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anizone. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Define an array of anime titles
+        var animeTitles = [
+            "Naruto",
+            "One Piece",
+            "Attack on Titan",
+            "Demon Slayer: Kimetsu no Yaiba",
+            "Jujutsu Kaisen",
+            "My Hero Academia",
+            "Death Note",
+            "Dragon Ball Z",
+            "Tokyo Ghoul"
+            // Add more anime titles here
+        ];
+
+        // Function to dynamically populate the anime lists
+        function populateAnimeLists() {
+            var popularList = document.getElementById("popular-list");
+            var newestList = document.getElementById("newest-list");
+            var viewedList = document.getElementById("viewed-list");
+
+            animeTitles.forEach(function(title) {
+                var listItem = document.createElement("li");
+                listItem.textContent = title;
+
+                var listItemCopy = listItem.cloneNode(true);
+                popularList.appendChild(listItemCopy);
+
+                var listItemCopy = listItem.cloneNode(true);
+                newestList.appendChild(listItemCopy);
+
+                var listItemCopy = listItem.cloneNode(true);
+                viewedList.appendChild(listItemCopy);
+            });
+        }
+
+        // Call the function to populate the anime lists
+        populateAnimeLists();
+    </script>
+</body>
+</html>anizone
