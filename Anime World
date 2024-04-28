@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Anime World</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Browse Anime</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="animeList">
+      <!-- Anime content will be dynamically added here -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Anime World</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5cb85c; /* Green background color */
+  color: #000; /* Blue-black text color */
+}
+
+header {
+  background-color: #333; /* Blue-black header background color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333; /* Blue-black footer background color */
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}// Simulated data for demonstration
+const animeData = [
+  { title: 'Naruto', active: true },
+  { title: 'One Piece', active: true },
+  { title: 'Attack on Titan', active: true },
+  // Add more anime data as needed
+];
+
+// Function to display active anime
+function displayActiveAnime() {
+  const animeList = document.getElementById('animeList');
+  animeData.forEach(anime => {
+    if (anime.active) {
+      const animeItem = document.createElement('div');
+      animeItem.textContent = anime.title;
+      animeList.appendChild(animeItem);
+    }
+  });
+}
+
+// Call the function to display active anime when the page loads
+window.onload = displayActiveAnime;
